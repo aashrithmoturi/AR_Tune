@@ -1,0 +1,41 @@
+.choose .cards {
+  /* margin:20%; */
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-around;
+
+  /* grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); */
+  /* grid-gap: 20px; */
+}
+
+/* .parent{
+  display: flex;
+} */
+
+
+.choose .card {
+    border: 2px solid aliceblue;
+    padding: 105px;
+    /* width: 100vw; */
+  /* height: 100vh; */
+  color: aliceblue;
+  background-size: cover;
+      background-repeat: no-repeat;
+
+  /* display: grid; */
+  grid-template-rows: max-content 200px 1fr;
+  /* back */
+}
+
+/* .choose card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+} */
+
+MainCode {
+  height: max-content;
+  width: max-content;
+}
